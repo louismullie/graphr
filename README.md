@@ -1,7 +1,6 @@
-graphr
-======
+##graphr
 
-== About
+###About
 
 Graph-related Ruby classes [written by Robert Feld](http://rockit.sourceforge.net/subprojects/graphr/) in 2001, but never released as a gem.
 
@@ -10,8 +9,9 @@ Graph-related Ruby classes [written by Robert Feld](http://rockit.sourceforge.ne
 
 
 
-== Example Usage
+###Example Usage
 
+```ruby
 # Lets crank out a simple graph...
 require 'graph/graphviz_dot'
 
@@ -42,3 +42,4 @@ dgp.set_node_attributes(2, :URL => '"node2.html"')
 dgp.write_to_file("g.png", "png") # Generate png file
 dgp.orientation = "landscape"      # Dot problem with PS orientation
 dgp.write_to_file("g.ps")          # Generate postscript file
+```
