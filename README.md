@@ -7,6 +7,10 @@ Graph-related Ruby classes [written by Robert Feld](http://rockit.sourceforge.ne
 * DirectedGraph - fairly extensive directed graph class.
 * DotGraphPrinter - output a graph in GraphViz's dot format and invoke dot.
 
+###Install
+
+    gem install graphr
+
 ###Example Usage
 
 ```ruby
