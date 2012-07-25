@@ -15,7 +15,7 @@ Graph-related Ruby classes [written by Robert Feld](http://rockit.sourceforge.ne
 
 ```ruby
 # Lets crank out a simple graph...
-require 'graph/graphviz_dot'
+require 'graphr'
 
 # In this simple example we don't even have a "real" graph
 # just an Array with the links. The optional third element 
