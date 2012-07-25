@@ -1,6 +1,3 @@
-require 'graph/base_extensions'
-require 'graph/graphviz_dot'
-
 class HashOfHash < DefaultInitHash
   def initialize(&initBlock)
     super do
