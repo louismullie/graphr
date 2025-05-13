@@ -1,17 +1,17 @@
-##graphr
+## graphr
 
-###About
+### About
 
 Graph-related Ruby classes [written by Robert Feld](http://rockit.sourceforge.net/subprojects/graphr/) in 2001, but never released as a gem.
 
 * DirectedGraph - fairly extensive directed graph class.
 * DotGraphPrinter - output a graph in GraphViz's dot format and invoke dot.
 
-###Install
+### Install
 
     gem install graphr
 
-###Example Usage
+### Example Usage
 
 ```ruby
 # Lets crank out a simple graph...
